@@ -22,7 +22,7 @@ public class Chatbot {
                 System.out.println("Chatbot: Hello there! How can I help you?");
             }
             else if(input.contains("how are you")){
-                System.out.println("Chatbot: I'm just a program, but I'm doing great! How about you?");
+                System.out.println("Chatbot: I'm just a program, but I'm doing great! What about you?");
             }
             else if (input.contains("your name")) {
                 System.out.println("Chatbot: I'm Chatbot, Your friendly assistant.");
@@ -33,7 +33,7 @@ public class Chatbot {
             } else if (input.contains("thank you")|| input.contains("thanks")) {
                 System.out.println("Chatbot: You're welcome");
             } else if (input.contains("bye")) {
-                System.out.println("Chatbot: Bye! Take care!");
+                System.out.println("Chatbot: Bye! Take care Have a nice day!");
                 break;
             }else {
                 System.out.println("Chatbot: Sorry, I didn't understand that. Can you rephrase?");
